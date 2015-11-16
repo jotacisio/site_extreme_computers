@@ -1,0 +1,275 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+@import url(https://fonts.googleapis.com/css?family=Play);
+/*----------------------------------------CORPO-------------------------------------------------------*/
+body.home{
+    background: url(_imagens/dual_raystorm_4.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*Css padrão*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*Css safari e chrome*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*Css firefox*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*Css IE não use mer#^@%#*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*Css Opera*/
+}
+body.sobre{
+    background: url(_imagens/water_verde.jpg) no-repeat center center fixed;
+    background-size: cover; /*Css padrão*/
+    -webkit-background-size: cover; /*Css safari e chrome*/
+    -moz-background-size: cover; /*Css firefox*/
+    -ms-background-size: cover; /*Css IE não use mer#^@%#*/
+    -o-background-size: cover; /*Css Opera*/
+}
+body.servicos{
+    background: url(_imagens/water5.jpg) no-repeat center center fixed;
+    background-size: cover; /*Css padrão*/
+    -webkit-background-size: cover; /*Css safari e chrome*/
+    -moz-background-size: cover; /*Css firefox*/
+    -ms-background-size: cover; /*Css IE não use mer#^@%#*/
+    -o-background-size: cover; /*Css Opera*/
+}
+/*----------------------------------------INTERFACE--------------------------------------------------*/
+div#interface_home{
+    width: 1000px;
+    background-color: transparent;
+    margin: -20px auto 0px auto;
+    padding: 10px;
+    height: 630px;
+}
+div#interface_sobre{
+    width: 1000px;
+    background-color: rgba(13, 13, 13, 0.80);
+    margin: -20px auto 0px auto;
+    padding: 10px;
+    height: 630px;
+}
+div#interface_serv{
+    width: 1000px;
+    background-color: rgba(13, 13, 13, 0.80);
+    margin: -20px auto 0px auto;
+    padding: 10px;
+    height: 900px;
+}
+div#interface{
+    width: 1000px;
+    background-color: rgba(13, 13, 13, 0.80);
+    margin: -20px auto 0px auto;
+    padding: 10px;
+    height: 990px;
+}
+h2{
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 75px;
+      position: absolute;
+      left:13%;
+      top:30%;
+  }
+h3#index{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    left: 38%;
+    top:45%;
+}
+section h1{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 75px;
+    position: relative;
+    text-align: center;
+}
+section h3{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
+section li{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
+    position: relative;
+    text-align: left;
+}
+section p{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    position: relative;
+    text-align: justify;
+    text-indent: 30px;
+}
+section div#texto_sobre{
+    text-align: justify;
+    width:600px;
+    height:200px;
+    position:absolute;
+    left:32%;
+    margin-top:-50px;
+    margin-left:-50px;
+}
+/*----------------------------------------SUB SESSÃO--------------------------------------------------*/
+section {
+    height: 650px;
+}
+section#servicos p{
+    color: #169ECC;
+}
+
+section#servicos p.fim{
+    color: white;
+}
+/*----------------------------------------BARRA DE NAVEGAÇÃO--------------------------------------------------*/
+#cssmenu {
+    background: rgba(98, 100, 94, 0.95);
+    margin: 0;
+    width: auto;
+    padding: 0;
+    line-height: 1;
+    display: block;
+    position: relative;
+    font-family: 'PT Sans', sans-serif;
+}
+#cssmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+#cssmenu ul:after {
+    content: ' ';
+    display: block;
+    font-size: 0;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#cssmenu ul li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    position: relative;
+}
+#cssmenu ul li a {
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    -webkit-transition: color .2s ease;
+    -moz-transition: color .2s ease;
+    -ms-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+}
+#cssmenu ul li ul {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+}
+#cssmenu ul li ul li {
+    max-height: 0;
+    position: absolute;
+    -webkit-transition: max-height 0.4s ease-out;
+    -moz-transition: max-height 0.4s ease-out;
+    -ms-transition: max-height 0.4s ease-out;
+    -o-transition: max-height 0.4s ease-out;
+    transition: max-height 0.4s ease-out;
+    background: #ffffff;
+}
+#cssmenu ul li ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: none;
+    color: #000000;
+    letter-spacing: 0;
+    display: block;
+    width: 140px;
+    padding: 11px 10px 11px 20px;
+}
+#cssmenu ul li ul li:hover > a,
+#cssmenu ul li ul li.active > a {
+    color: rgba(255, 12, 19, 0.93);
+}
+#cssmenu > ul > li {
+    float: left;
+}
+#cssmenu > ul > li:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    z-index: 0;
+    background: #ffffff;
+    -webkit-transition: height .2s;
+    -moz-transition: height .2s;
+    -ms-transition: height .2s;
+    -o-transition: height .2s;
+    transition: height .2s;
+}
+#cssmenu > ul > li > a {
+    color: #ffffff;
+    padding: 15px 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    z-index: 2;
+    position: relative;
+}
+#cssmenu > ul > li:hover:after,
+#cssmenu > ul > li.active:after {
+    height: 100%;
+}
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li.active > a {
+    color: #000000;
+}
+#cssmenu > ul > li:hover > a:before,
+#cssmenu > ul > li.active > a:before {
+    border-top-color: #ffffff;
+}
+#cssmenu > ul > li:hover > ul {
+    left: 0;
+}
+#cssmenu > ul > li:hover > ul > li {
+    max-height: 72px;
+    position: relative;
+}
+/*----------------------------------------RODAPÉ--------------------------------------------------*/
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+footer#rodape p{
+    font-weight: 600;
+    text-align: center;
+    color: darkred;
+    font-family: 'Play', sans-serif;
+}
