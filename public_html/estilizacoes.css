@@ -3,13 +3,13 @@
 @import url(https://fonts.googleapis.com/css?family=Play);
 /*----------------------------------------CORPO-------------------------------------------------------*/
 body.home{
-    background: url(_imagens/dual_raystorm_4.jpg) no-repeat center center fixed;
+    background: url(http://static1.squarespace.com/static/51998404e4b0ef02d1bd9c2c/t/519c1c53e4b0253011334997/1369185367158/dual_raystorm_4.jpg?format=1500w) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*Css padr„o*/
+    /*Css padr√£o*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
@@ -27,7 +27,7 @@ body.home{
     -ms-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*Css IE n„o use mer#^@%#*/
+    /*Css IE n√£o use mer#^@%#*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -ms-background-size: cover;
@@ -37,18 +37,18 @@ body.home{
 }
 body.sobre{
     background: url(_imagens/water_verde.jpg) no-repeat center center fixed;
-    background-size: cover; /*Css padr„o*/
+    background-size: cover; /*Css padr√£o*/
     -webkit-background-size: cover; /*Css safari e chrome*/
     -moz-background-size: cover; /*Css firefox*/
-    -ms-background-size: cover; /*Css IE n„o use mer#^@%#*/
+    -ms-background-size: cover; /*Css IE n√£o use mer#^@%#*/
     -o-background-size: cover; /*Css Opera*/
 }
 body.servicos{
     background: url(_imagens/water5.jpg) no-repeat center center fixed;
-    background-size: cover; /*Css padr„o*/
+    background-size: cover; /*Css padr√£o*/
     -webkit-background-size: cover; /*Css safari e chrome*/
     -moz-background-size: cover; /*Css firefox*/
-    -ms-background-size: cover; /*Css IE n„o use mer#^@%#*/
+    -ms-background-size: cover; /*Css IE n√£o use mer#^@%#*/
     -o-background-size: cover; /*Css Opera*/
 }
 /*----------------------------------------INTERFACE--------------------------------------------------*/
@@ -134,7 +134,7 @@ section div#texto_sobre{
     margin-top:-50px;
     margin-left:-50px;
 }
-/*----------------------------------------SUB SESS√O--------------------------------------------------*/
+/*----------------------------------------SUB SESS√ÉO--------------------------------------------------*/
 section {
     height: 650px;
 }
@@ -145,7 +145,7 @@ section#servicos p{
 section#servicos p.fim{
     color: white;
 }
-/*----------------------------------------BARRA DE NAVEGA«√O--------------------------------------------------*/
+/*----------------------------------------BARRA DE NAVEGA√á√ÉO--------------------------------------------------*/
 #cssmenu {
     background: rgba(98, 100, 94, 0.95);
     margin: 0;
@@ -262,7 +262,7 @@ section#servicos p.fim{
     max-height: 72px;
     position: relative;
 }
-/*----------------------------------------RODAP…--------------------------------------------------*/
+/*----------------------------------------RODAP√â--------------------------------------------------*/
 footer#rodape{
     clear: both;
     border-top: 1px solid #606060;
